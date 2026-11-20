@@ -17,7 +17,15 @@ Estudiante de Ingeniería en Sistemas Computacionales en la UPIIZ-IPN (Zacatecas
 | [**Agente Factory**](https://github.com/gaelg22/agente-factory) | Plantillas + configs YAML + adaptador multi-LLM para levantar un agente nuevo en menos de una hora. | Node.js, Claude / GPT / Gemini |
 | [**GESCO**](https://github.com/zeriklabs/Gesco) | App de trámites escolares para la UPIIZ con expediente único del alumno (reinscripción, bajas, COSIE). Mi servicio social. | Flutter, Dart |
 
-De la escuela: [API de ligas deportivas](https://github.com/gaelg22/Ejercicio-10) (Spring Boot + JWT) y su [frontend en Angular](https://github.com/gaelg22/Proyecto-Final).
+### Java / Spring Boot
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [**API de ligas deportivas**](https://github.com/gaelg22/Ejercicio-10) | Ligas, equipos, jugadores y partidos con login JWT. Tiene su [frontend en Angular](https://github.com/gaelg22/Proyecto-Final). | Spring Boot 3, Spring Security + JWT, JPA, PostgreSQL, Docker |
+| [**API de restaurante**](https://github.com/gaelg22/ejercicio05) | Pedidos con detalle: el total se recalcula al agregar o quitar platillos y respeta el precio con el que se cobró. | Spring Boot 3, JPA, MySQL, Docker |
+| [**Quiniela de playoffs de hockey**](https://github.com/gaelg22/ejercicio06---Hockey) | Pronósticos de marcador y de estadísticas con 10 entidades, validaciones y Swagger. | Spring Boot 3, JPA, H2, Bean Validation |
+
+Los tres tienen tests con JUnit 5 y Mockito que corren en cada push con GitHub Actions.
 
 ### Con qué trabajo
 
@@ -26,4 +34,4 @@ De la escuela: [API de ligas deportivas](https://github.com/gaelg22/Ejercicio-10
 - **Frontend / móvil:** React, Angular, React Native (Expo), Flutter
 - **Bases de datos:** PostgreSQL, MongoDB, MySQL, SQLite
 - **IA:** Claude API, OpenAI, Gemini, RAG (ChromaDB), prompts para agentes, Vapi (voz), WhatsApp Business API (Kapso)
-- **Otros:** Docker, Render, Netlify, Git, Microsoft Graph, Google Calendar API
+- **Otros:** Docker, GitHub Actions, Render, Netlify, Git, Microsoft Graph, Google Calendar API
